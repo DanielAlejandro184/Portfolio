@@ -1089,4 +1089,35 @@ footer p{
     }
 }
 
+/* Breakpoint */
+
+@media screen and (min-width:1025px) and (max-width:1700px){
+
+    .barraBrillante{
+        height: 13.5rem;
+        top: 9.2rem;    
+    }
+
+    .formulario{
+        width: 62.2%;
+    }
+
+    .mensaje{
+        width: 62.2%;
+    }
+
+    .seccionContactame::before{
+        width:36.5%;
+    }
+    .seccionContactame::after{
+        width: 36.5%;
+    }
+    .seccionFooter::before{
+        width: 40.5%;   
+    }
+    .seccionFooter::after{
+        width: 40.5%;     
+    }
+}
+
 
