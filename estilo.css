@@ -2976,6 +2976,252 @@ footer p{
     }  
 }
 
+/* 390 */
+
+@media screen and (min-width:0px) and (max-width:390px){
+   
+    /* Hero */
+
+    .Hero::before{
+        bottom:6%;
+        left: 2%;
+    }
+
+    .Hero::after{
+        bottom: 6%;
+        right: 2%;
+    }
+
+    /* Acerca de mi */
+
+    .seccionAcerca h1{
+        font-size: 2.5em;
+        margin-top: 3.8rem;
+    }
+
+    .Acerca p{
+        font-size: 1.1rem;
+    }
+
+    /* Mis habilidades */
+
+    .MisHabilidades h1{
+        font-size: 2.5em;
+        margin-top: 1.9rem;
+    }
+
+    .contenedorPropiedades{     
+        min-height: 7.2rem;
+        width: 20.8%;
+        margin-bottom: 1.2rem;  
+    }
+
+    .contenedorIconosHabilidades{
+        width: 100%;
+        gap: 0rem 1rem;   
+        justify-content: center; 
+    }
+
+    .contenedorPropiedades img{
+        height: 2.1rem;
+    }
+
+
+    .contenedorPropiedades h3{
+        font-size: 1em;
+    }
+
+    .contenedorGit h3{
+        font-size: 0.8em;
+    }
+
+    
+    .contHtmlCSS{
+        margin-top:0.3rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .contenedorHtmlCSS{
+        font-size: 0.8em;
+    }
+
+    .contenedorJS img{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: 1.1rem;
+    }
+    
+    .contenedorGit img{
+        margin-bottom: 0.5rem;
+    }
+    
+    .contenedorReact img{
+        margin-bottom: 0.7rem;
+        margin-top: 0.5rem;
+    }
+    
+    .contenedorNode img{
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .contenedorNode h3{
+        padding-bottom: 0.3rem;
+    }
+    
+    .contenedorPhp img{
+        height: 3rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .contenedorPhp h3{
+        padding-bottom: 0.7rem;
+    }
+    
+    .contenedorMySql img{
+        height: 2.5rem;
+        margin-bottom: 1rem;
+        margin-top: 0rem;   
+    }
+
+    .contenedorMySql h3{
+        padding-bottom: 0.5rem;
+    }
+
+    .contenedorMicrosoft img{
+        margin-bottom: 0.8rem;
+        
+    }
+
+    .contenedorMicrosoft h3{
+        padding-bottom: 0.2rem;
+    }
+
+    /* Portafolio */
+
+    .Portfolio h3{
+        font-size: 2.5em;
+    }
+    
+    .contenedorTp1 , .contenedorTp2 , .contenedorTp3{
+        width: 90%;
+        min-height: 12rem;
+    }
+
+    .contenedorOculto h1{
+        font-size: 2em;
+    }
+    .contenedorOculto p{
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .linkGitOculto{
+        width: 50%;
+    }
+    
+
+    .botonVerMasPortfolio button{
+        font-size: 1.5em;
+        padding: 1.06rem 1.9rem;
+        margin-bottom: 6rem;
+    }
+    /* Experiencia */
+
+    .Experiencia{
+        padding-top: 5rem;
+    }
+
+    .Experiencia h1{
+        font-size: 2.5em;
+        top: -1.7rem;
+        left: 4.25rem;
+    }
+
+    .contenedorPadreBarra::before{
+        left: -2.2rem;   
+    }
+
+    .contenedorPadreBarra::after {
+        left: -3.4rem;
+    }
+
+    .AñoExp{
+        padding: 0.35rem 1rem 0.35rem 0.5rem;
+        font-size: 0.8em;
+    }
+
+    .contenedorExperienciasTextos h3{
+        font-size: 1.7em;
+    }
+
+    .contenedorExperienciasTextos h4{
+        font-size: 1.4em;
+    }
+
+    .contenedorExperienciasTextos p{
+        font-size: 1em;
+    }
+
+    .esferaBrillante{
+        margin-left: 0.6rem;     
+    }
+           
+    /* Contactame */
+
+    .tituloContactameTablet{
+        font-size: 2.5em;
+        top: -1.7rem;
+    }
+
+    .contactameFraseTablet{
+       font-size: 1.2em;
+    }
+
+    .contenedorConexionesTablet{
+        flex-direction: column;
+    }
+
+    .contenedorTelefonoTablet{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .contenedorEmailTablet , .contenedorTelefonoTablet , .contenedorLocationTablet{
+        width: 55%;
+    }
+
+    .contenedorRedesContactTablet{
+        left: 4.5rem;
+        bottom: -9.7rem;
+    }
+
+    .seccionContactame::before{
+        width: 16%;
+    }
+    
+    .seccionContactame::after{
+        width: 14%;
+    }
+    .seccionFooter::before{
+        width: 17%;   
+    }
+    .seccionFooter::after{
+        width: 18%;     
+    }  
+
+    /* Footer */
+
+    .Footer p{
+        text-align: center;
+        padding-top: 5rem;
+        padding-bottom: 4rem;
+    }   
+}
+
+/* Fin del CSS */
+
 
 
 
