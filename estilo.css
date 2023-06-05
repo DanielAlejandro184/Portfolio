@@ -772,3 +772,257 @@ header h1{
     margin-bottom: 1rem;
 }
 
+/* Seccion Contactame */
+
+.seccionContactame{
+    background-color: #31333B;
+    display: flex;
+    justify-content: center;
+    max-width: 120rem;
+    position: relative;
+}
+
+.Contactame{   
+    width: 83%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.contactameTablet{
+    display: none;
+}
+
+.tituloContactame{
+    font-size: 4.2em;
+    color: #F9F9F9;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+    position: relative;
+    top: -2.85rem;
+}
+
+.seccionContactame::before{
+    content: '';
+    display: block;
+    background-color: #FFC86B;
+    width: 38.5%;
+    height: 0.195rem;
+    position: absolute;
+    top: -0.03rem;
+    left: 0rem;
+    border-radius: 1rem;
+}
+
+.seccionContactame::after{
+    content: '';
+    display: block;
+    background-color: #FFC86B;
+    width: 38.5%;
+    height: 0.195rem;
+    position: absolute;
+    top: -0.03rem;
+    right: 0rem;
+    border-radius: 1rem;
+}
+
+.formulario{
+    display: flex;
+    gap: 7rem;
+    width: 55.8%;
+}
+
+.formulario h4{
+    font-size: 1.5rem;
+    font-family: 'Cabin', sans-serif;
+    color: #F9F9F9;
+    margin-bottom: 1rem;  
+}
+
+.nombreApellido , .emailAsunto{
+    width: 50%;
+}
+
+.formulario input{
+    width: 100%;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.8rem 0rem 0.8rem 0.5rem;
+    margin-bottom: 2rem;
+    background-color: #3D3E42;
+    padding-left: 2rem;
+    font-size: 1em;
+    color: #F9F9F9;
+    outline: none;
+    font-family: 'Cabin', sans-serif;
+}
+
+.mensaje{
+    width: 55.8%;
+    resize: none;
+    margin-bottom: 2rem;
+    background-color: #3D3E42;
+    border: none;
+    color: #F9F9F9;
+    outline: none;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 1em;
+    height: 9rem;
+    font-family: 'Cabin', sans-serif;
+    border-radius: 0.3rem;
+}
+
+.contactameFrase{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: #FFC86B;
+    width:40%;
+    margin-bottom: 3rem;
+}
+
+.contenedorEmailTelefono , .contenedorEmail , .contenedorTelefono{
+    display: flex;
+    align-items: center;
+}
+
+.contenedorEmailTelefono{   
+    gap: 0.7rem;
+    justify-content: center;
+}
+.contenedorEmail{
+    padding-top: 1.05rem;
+    padding-bottom: 1.05rem;
+    border-radius: 0.6rem;
+    background-color: #3D3E42;
+    transition: .3s all;
+}
+
+.contenedorEmail img{
+    height: 3rem;
+    margin-right: 1.5rem;
+    margin-left: 2.3rem;
+}
+
+.contenedorEmail span{
+    font-size: 1.75em;
+    font-family: 'Cabin', sans-serif;
+    color: #FFC86B;
+    margin-right: 4.8rem;
+}
+
+.contenedorTelefono{
+    background-color: #3D3E42;
+    padding-top: 1.05rem;
+    padding-bottom: 1.05rem;
+    border-radius: 0.6rem;
+    transition: .3s all;
+}
+
+.contenedorTelefono img{
+    height: 3rem;
+    margin-right: 0.9rem;
+    margin-left: 2.3rem;
+}
+
+.contenedorTelefono span{
+    font-size: 1.75em;
+    font-family: 'Cabin', sans-serif;
+    color: #FFC86B;
+    margin-right: 10.35rem;
+}
+
+.contenedorLocation{
+    background-color: #3D3E42;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6.98rem;
+    border-radius: 0.6rem;
+    padding-top: 1.05rem;
+    padding-bottom: 1.05rem;
+    transition: .3s all;
+}
+
+.contenedorLocation img{
+    height: 3rem;
+    margin-right: 1rem;
+    margin-left: 2.35rem;
+}
+
+.contenedorLocation span{
+    font-size: 1.75em;
+    font-family: 'Cabin', sans-serif;
+    color: #FFC86B;
+    margin-right: 3.38rem;
+}
+
+.contenedorAuxiliar{
+    position: relative;
+    background-color: #3D3E42;
+}
+
+.contenedorRedesContact{
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+    position: absolute;
+    top: -1.1rem;
+    left: -6.55rem;
+    z-index: 1;
+}
+
+.logoTwittContact , .logoLinkContact{
+    height: 2rem;   
+}
+
+.logoFaceContact{
+    height: 2rem;   
+}
+
+.logoWhatsContact{
+    height: 2rem;   
+}
+
+.seccionFooter::before{
+    content: '';
+    display: block;
+    background-color: #FFC86B;
+    width:42%;
+    height: 0.195rem;
+    position: absolute;
+    top: -0.03rem;
+    right: 0rem;
+    border-radius: 1rem;
+}
+
+.seccionFooter::after{
+    content: '';
+    display: block;
+    background-color: #FFC86B;
+    width: 42%;
+    height: 0.195rem;
+    position: absolute;
+    top: -0.03rem;
+    left: 0rem;
+    border-radius: 1rem;
+}
+
+.contenedorEmail:hover , .contenedorTelefono:hover , .contenedorLocation:hover{
+    background-color: #F0BF6C;
+}
+
+.contenedorEmail:hover span, .contenedorTelefono:hover span, .contenedorLocation:hover span{
+    color: #3D3E42;
+}
+
+.logoTwittContact:hover , .logoFaceContact:hover , .logoLinkContact:hover , .logoWhatsContact:hover{
+    animation: mover 1s ease infinite;
+}
+
+
+
