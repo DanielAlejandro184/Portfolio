@@ -296,3 +296,181 @@ header h1{
     color: #FFC86B;
 }
 
+/* Mis habilidades */
+
+.seccionMisHabilidades{
+    display: flex;
+    justify-content: center;
+    background-color: #31333B;
+    max-width: 120rem;
+}
+
+.MisHabilidades{   
+    width: 83%;
+    margin: 0 auto;
+}
+
+.MisHabilidades h1{
+    text-align: center;
+    font-size: 4.2em;
+    color: #F9F9F9;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+    margin-top: 3.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.contenedorIconosHabilidades{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem 2.3rem;
+    justify-content: center;
+    
+}
+
+.contenedorPropiedades{ 
+    background-color: #3D3E42;
+    color: #F9F9F9;
+    border-radius: 1.2rem;
+    min-height: 23.2rem;
+    width: 23.25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.2rem;  
+    transition: .3s all;
+}
+
+.contenedorPropiedades h3{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.75rem;
+}
+
+.iconPropiedades{
+    height: 7.25rem;
+    
+}
+
+.contHtmlCSS{
+    margin-top:0.3rem;
+    margin-bottom: 3rem;
+}
+
+.contenedorJS img{
+    margin-top: 0.2rem;
+    margin-bottom: 3rem;
+    margin-left: 1.1rem;
+}
+
+.contenedorGit{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.contenedorGit img{
+    margin-top: 0rem;
+    margin-bottom: 2.5rem;
+}
+
+.contenedorReact img{
+    margin-bottom: 2.8rem;
+    margin-top: 0.5rem;
+}
+
+.contenedorNode img{
+    margin-bottom: 2.3rem;
+    margin-top: 0.5rem;
+}
+
+.contenedorPhp img{
+    height: 8rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1.7rem;
+}
+
+.contenedorMySql img{
+    height: 5rem;
+    margin-bottom: 4.5rem;
+    margin-top: 0.5rem;   
+}
+
+.contenedorMicrosoft img{
+    background-color: #F9F9F9;
+    margin-bottom: 2.45rem;
+    height: 7.7rem;  
+}
+
+.contenedorIconChico{
+    display: flex;
+    justify-content: center;
+    gap: 0rem 2.3rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.contenedorC img , .contenedorCPlus img{
+    margin-bottom: 3rem;    
+}
+
+.patronChico{
+    background-color: #695E4B;
+    border-radius: 50%;
+    height: 0.98rem;
+    width: 0.98rem;  
+}
+
+.patronGrande{
+    background-color: #695E4B;
+    border-radius: 50%;
+    height: 1.2rem;
+    width: 1.2rem;     
+}
+
+.contenedorPatrones{ 
+    position: absolute;
+    height: 25rem;
+    width: 14.2%;
+    flex-wrap: wrap;
+    display: flex;
+    right: 0;  
+    top: 15rem;
+}
+
+.contenedorPatrones div{
+    display: flex;
+}
+
+.divancho{
+    width: 4.2rem;
+}
+.primerPatron{
+    align-items: center;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.segundoPatron{
+    align-items: center;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tercerPatron{
+    align-items: center;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cuartoPatron{
+    align-items: center;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contenedorPropiedades:hover {
+    background-color: #F0BF6C;
+}
+
