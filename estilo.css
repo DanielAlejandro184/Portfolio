@@ -1401,6 +1401,47 @@ footer p{
     }
 }
 
+/* Breakpoint */
+
+@media screen and (min-width:1025px) and (max-width:1100px){
+    .sectionHero{
+        background-size: 62%;
+        background-position:100% 200%;    
+    }
+
+    .contenedorPropiedades{   
+        width: 30%;    
+    }
+
+    .barraBrillante{
+        height: 17rem;
+        top: 11.2rem;    
+    }
+
+    .formulario{
+        width: 90.5%;
+    }
+
+    .mensaje{
+        width: 90.5%;
+    }
+
+    .seccionContactame::before{
+        width:30%;
+    }
+    .seccionContactame::after{
+        width: 30%;
+    }
+    .seccionFooter::before{
+        width: 36%;   
+    }
+    .seccionFooter::after{
+        width: 36%;     
+    }
+}
+
+
+
 
 
 
