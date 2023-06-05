@@ -1873,6 +1873,67 @@ footer p{
     }
 }
 
+/* Breakpoint */
+
+@media screen and (min-width:768px) and (max-width:800px){
+
+    .sectionHero{
+        background-size: 78%;
+        background-position:115% 170%;
+    }
+
+    .contenedorRedesContactTablet{
+        display: flex;
+        align-items: center;
+        gap: 1.7rem;
+        position: absolute;
+        top: 36rem;
+        left: 14.2rem;
+        z-index: 1;
+    }
+
+    .barraBrillante{
+        height: 18.8rem;
+        top: 12rem;    
+    }
+
+    .contenedorPropiedades{   
+        width: 29.5%;    
+    }
+
+    .contenedorPropiedades img{
+        height: 5rem;
+    }
+
+    .contenedorAdornos{
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        width: 25.9%;
+        justify-content: right;
+        height: 3.3rem;
+    }
+
+    .contenedorExperienciasTextos{
+        width: 70%;   
+    }
+    .seccionContactame::before{
+        width: 24%;
+    }
+    
+    .seccionContactame::after{
+        width: 21%;
+    }
+    .seccionFooter::before{
+        width: 34%;   
+    }
+    .seccionFooter::after{
+        width: 34%;     
+    }
+}
+
+
 
 
 
