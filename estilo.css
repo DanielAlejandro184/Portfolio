@@ -2704,6 +2704,278 @@ footer p{
     }  
 }
 
+/* Mobile 480 */
+
+@media screen and (min-width:0px) and (max-width:480px){
+
+    header section{
+        width: 90%;
+    }
+    /* Hero */
+
+    .sectionHero::before{
+        background-size: cover;
+        background-position: 55% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Hero{
+        width: 90%;
+    }
+
+    .Hero::before{
+        bottom:7.5%;
+        left: 8%;
+    }
+
+    .Hero::after{
+        bottom: 7.5%;
+        right: 8%;
+    }
+
+    /* Acerca de mi */
+
+    .Acerca{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Acerca p{
+        margin-left: 0rem;
+        width: 80%;
+        padding-left: 1.5rem;
+    }
+    .seccionAcerca h1{
+        font-size: 3em;
+        margin-top: 4.8rem;
+    }
+
+    .Acerca p{
+        font-size: 1.3rem;
+    }
+
+    .Acerca p::before{
+        height: 98%;
+        left: -0.5rem;
+    }
+
+    /* Mis habilidades */
+
+    .MisHabilidades{
+        width: 90%;
+    }
+    .MisHabilidades h1{
+        font-size: 3em;
+        margin-top: 2.4rem;
+    }
+
+    .contenedorPropiedades{     
+        min-height: 10.2rem;
+        width: 30.8%;
+        margin-bottom: 2.2rem;  
+    }
+
+    .contenedorIconosHabilidades{
+        width: 100%;
+        gap: 0rem 1rem;   
+        justify-content: center; 
+    }
+
+    .contenedorPropiedades img{
+        height: 3rem;
+    }
+
+    .contenedorPropiedades h3{
+        font-size: 1.3em;
+    }
+
+    .contenedorGit h3{
+        font-size: 1.2em;
+    }
+
+    /* Portfolio */
+    .Portfolio{
+        width: 90%;
+    }
+    .Portfolio h3{
+        font-size: 3em;
+    }
+    
+    .contenedorTp1 , .contenedorTp2 , .contenedorTp3{
+        width: 90%;
+    }
+
+    /* Experiencia */
+
+    .Experiencia{
+        width: 90%;
+    }
+
+    .Experiencia h1{
+        font-size: 3em;
+        top: -1.98rem;
+        left: 5rem;
+    }
+
+    .contenedorPadreBarra::before{
+        left: -2.6rem;   
+    }
+
+    .contenedorPadreBarra::after {
+        left: -3.8rem;
+    }
+
+    .AñoExp{
+        font-size: 1rem;
+        padding: 0.35rem 1.2rem 0.35rem 0.8rem;
+    }
+
+    .contenedorExperienciasTextos h4{
+        font-size: 1.1;
+    }
+
+    .contenedorExperienciasTextos p{
+        font-size: 1.2em;
+    }
+
+    .esferaBrillante{
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-left: 0.8rem;     
+    }
+    
+    .esferaBrillante::before {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    /* Contactame */
+
+    .contactameTablet{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .contactameTablet h1{
+        position: relative;
+        padding: 0rem;
+        margin: 0rem;
+        left: 0rem;
+    }
+
+    .contactameTablet h3{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .contactameFormularioTablet{
+        width: 100%;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .formularioTablet{
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .contactameFraseTablet{
+        margin-bottom: 2rem;
+        padding: 0rem;
+    }
+    .contenedorConexionesTablet{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        margin: 0rem 0rem 3rem 0rem;
+        padding: 0rem;
+        gap: 1rem;
+    }
+    .contenedorEmailTablet{
+        flex-direction: column;
+        margin: 0rem;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+    }
+
+    .contenedorEmailTablet img{
+        margin: 0rem;
+        padding: 0rem;
+        height: 1.5rem;
+    }
+    .contenedorTelefonoTablet img{
+        margin: 0rem;
+        padding: 0rem;
+        height: 1.5rem;
+    }
+
+    .contenedorTelefonoTablet{
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .contenedorEmailTablet span{
+        width: 80%;
+        overflow-wrap: break-word;
+        margin: 0rem;
+        padding: 0rem;
+        text-align: center;
+    }
+    
+    .mensajeTablet{
+        margin: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    .contenedorTelefonoTablet{
+        flex-direction: column;
+        padding-top: 1.1rem;
+        padding-bottom: 1.1rem;
+    }
+
+    .contenedorLocationTablet{
+        flex-direction: column;
+        margin: 0rem;
+        padding: 0.27rem 0rem 0.27rem 0rem;
+    }
+
+    .contenedorLocationTablet span{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contactameFormularioTablet::before{
+        top: 96%;
+        height: 0.2rem;
+        width: 60%;
+        left: 20%;
+    }
+
+    .contenedorRedesContactTablet{
+        left: 7.5rem;
+        bottom: -3.2rem;
+    }
+
+    .seccionContactame::before{
+        width: 14%;
+    }
+    
+    .seccionContactame::after{
+        width: 13%;
+    }
+    .seccionFooter::before{
+        width: 19%;   
+    }
+    .seccionFooter::after{
+        width: 23%;     
+    }  
+}
+
 
 
 
