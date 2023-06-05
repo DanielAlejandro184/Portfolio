@@ -1207,6 +1207,132 @@ footer p{
     }
 }
 
+/*  Notebook*/
+
+@media screen and (min-width:1025px) and (max-width:1366px){
+    
+    /* Header */
+
+    header section{
+        width: 88%;
+        max-width: 85.375rem;
+    }
+
+    /* Hero */
+
+    .sectionHero{
+        background-size: 52%;
+        background-position:99% 200%;    
+        max-width: 85.375rem;
+    }
+
+    .Hero{
+        height: 81.15vh;
+        width: 88%;
+    }
+    .contenedorHeroIzq{
+        margin-left: 2rem;
+    }
+
+    .contenedorHeroDer{
+        padding-bottom: 1rem;
+    }
+
+    /* Acerca de mi */
+
+    .seccionAcerca{
+        max-width: 85.375rem;
+    }
+    .Acerca{
+        width: 88%;
+    }
+
+    /* Mis habilidades */
+
+    .seccionMisHabilidades{
+        max-width: 85.375rem;
+    }
+    .MisHabilidades{
+        width: 88%; 
+    }
+
+    .contenedorPropiedades{   
+        width: 31.25%;    
+    }
+
+    .contenedorIconChico{
+        display: none;
+    }
+
+    /* Portfolio */
+
+    .seccionPortfolio{
+        max-width: 85.375rem;
+    }
+    .Portfolio{
+        width: 88%;
+    }
+
+    .barraBrillante{
+        height: 15.5rem;
+        top: 10.2rem;    
+    }
+
+    /* Experiencia */
+
+    .seccionExperiencia{
+        max-width: 85.375rem;
+    }
+    .Experiencia{
+        width: 88%;
+    }
+    .contenedorAdornos{
+        width: 28.9%;
+    }
+
+    /* Contactame */
+
+    .seccionContactame{
+        max-width: 85.375rem;
+    }
+    .Contactame{
+        width: 88%;
+    }
+
+    .formulario{
+        width: 73%;
+    }
+
+    .mensaje{
+        width: 73%;
+    }
+
+    /* Footer */
+
+    .seccionFooter{
+        max-width: 85.375rem;
+    }
+    .Footer{
+        width: 88%;
+    }
+
+    .seccionContactame::before{
+        width: 33.5%;
+    }
+    .seccionContactame::after{
+        width: 33.5%;
+    }
+    .seccionFooter::before{
+        width: 38%;
+       
+    }
+    .seccionFooter::after{
+        width: 38%; 
+    }
+}
+
+
+
 
 
 
