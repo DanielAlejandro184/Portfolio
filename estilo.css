@@ -1331,7 +1331,44 @@ footer p{
     }
 }
 
+/* Breakpoint */
 
+@media screen and (min-width:1025px) and (max-width:1300px){
+
+    .sectionHero{
+        background-size: 55%;
+        background-position:99% 200%;    
+    }
+
+    .contenedorPropiedades{   
+        width: 31%;    
+    }
+
+    .linkGitOculto{
+        width: 45%;
+    }
+
+    .formulario{
+        width: 76.7%;
+    }
+
+    .mensaje{
+        width: 76.7%;
+    }
+
+    .seccionContactame::before{
+        width:33%;
+    }
+    .seccionContactame::after{
+        width: 33%;
+    }
+    .seccionFooter::before{
+        width: 38%;   
+    }
+    .seccionFooter::after{
+        width: 38%;     
+    }
+}
 
 
 
