@@ -2545,6 +2545,92 @@ footer p{
     }
 }
 
+/* Breakpoint */
+
+@media screen and (min-width:0px) and (max-width:657px){
+    
+    .sectionHero::before{
+        background-size: cover;
+        background-position: 50% 30%;
+        background-repeat: no-repeat;
+    }
+
+    .Hero::before{
+        bottom: 8%;
+        left: 13%;
+    }
+
+    .Hero::after{
+        bottom: 8%;
+        right: 13%;
+    }
+
+    .contenedorPropiedades{ 
+        min-height: 10.2rem;
+        width: 29.5%;
+        margin-bottom: 2.2rem;  
+    }
+
+    .contenedorAdornos{
+        justify-content: start;
+    }
+
+    .contenedorExperiencias{
+        gap: 0rem;
+    }
+
+    .AñoExp{
+        font-size: 1.2rem;
+        padding: 0.35rem 1.2rem 0.35rem 0.8rem;
+    }
+
+    .esferaBrillante{
+        margin-left: 1rem;     
+    }
+
+    .contenedorPadreBarra::before{
+        left: -3.8rem;   
+    }
+
+    .contenedorPadreBarra::after {
+        left: -5.2rem;
+    }
+
+    .contenedorConexionesTablet{
+        gap: 1.75rem;
+        padding-bottom: 0rem;
+        padding-top: 1rem;
+        width: 100%;
+    }
+
+    .contenedorRedesContactTablet{
+        top: 32.3rem;
+        left: 11rem;
+    }
+
+    .contactameFormularioTablet::before{
+        width: 0.2rem;
+        height: 52%;
+        top: 41.5%;
+        right: -1.5rem;
+    }
+
+    .seccionContactame::before{
+        width: 23%;
+    }
+    
+    .seccionContactame::after{
+        width: 19.5%;
+    }
+    .seccionFooter::before{
+        width: 26.5%;   
+    }
+    .seccionFooter::after{
+        width: 29%;     
+    }  
+}
+
+
 
 
 
