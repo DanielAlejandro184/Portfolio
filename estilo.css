@@ -96,3 +96,154 @@ header h1{
     font-family: myFont;
     color: #FFC86B;
 }
+
+/* Seccion Hero */
+
+.contactameBotonTablet{
+    display: none;
+}
+
+.sectionHero{
+    background: url(Imagenes/fotoPerfilBack.png), #34353A;
+    background-repeat: no-repeat;
+    background-size:45%;
+    background-position:100% 100%;
+    max-width: 120rem;
+    padding-top: 8.938rem;
+}
+
+.Hero{
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;  
+    margin: 0 auto;
+    width: 83%;
+}
+
+/* Seccion izquierda del hero */
+
+.contenedorHeroIzq{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    margin-bottom: 5.2rem;
+}
+
+.contenedorPresentacion div{
+    display: flex;
+    align-items: center;
+}
+.contenedorHeroIzq span{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    color: #F9F9F9;
+}
+.contenedorHeroIzq h1{
+    display: inline;
+    font-size: 5.2em;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    color: #FFC86B;
+    margin-left: 1.5rem;
+}
+
+.contenedorHeroIzq h3{
+    font-size: 2.2em;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2.7rem;
+    color: #F9F9F9;
+}
+
+.contenedorHeroIzq a{
+    background-color:#34353A;
+    font-size: 1.8em;
+    font-family: 'Cabin', sans-serif;
+    padding: 0.8rem 2.3rem;
+    border: 0.35rem solid #FFC86B;
+    border-radius: 0.7rem;
+    color: #FFC86B;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .3s all;
+    position: absolute;
+}
+
+.contenedorHeroIzq a:hover{
+    background-color: #F0BF6C;
+    color: #34353A;
+    transform: translate(5rem , 0rem);
+}
+
+/* Seccion derechaa del hero */
+
+.contenedorHeroDer{
+    display: flex;
+    align-items: end;   
+}
+
+.contenedorRedes::before{
+    content: '';
+    display: block;
+    width: 0.2rem;
+    height: 8rem;
+    background-color: #FFC86B;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom:15.4rem;
+    left: 0.85rem;
+}
+
+.contenedorRedes{
+    position: relative;
+    flex-direction: column;
+    display: flex;  
+}
+
+.linkFace{
+    margin-bottom: 1.1rem;
+}
+
+.linkTwitt , .linkLink{
+    margin-bottom: 1.2rem;
+}
+
+.linkWhats{
+    margin-bottom: 1.2rem;
+}
+
+.logoTwitt , .logoLink{
+    height: 2rem;  
+}
+
+.logoFace{
+    height: 2rem;   
+}
+
+.logoWhats{
+    height: 2rem;    
+}
+
+.linkFace:hover img{
+    animation: mover 1s ease infinite;
+}
+
+.linkTwitt:hover img{
+    animation: mover 1s ease infinite;
+}
+
+.linkLink:hover img{
+    animation: mover 1s ease infinite;
+}
+
+.linkWhats:hover img{
+    animation: mover 1s ease infinite;
+}
+
+@keyframes mover {
+    30% { transform: scale(1.2); }
+    40%, 60% { transform: rotate(-20deg) scale(1.2); }
+    50% { transform: rotate(20deg) scale(1.2); }
+    70% { transform: rotate(0deg) scale(1.2); }
+    100% { transform: scale(1); }
+}
+
