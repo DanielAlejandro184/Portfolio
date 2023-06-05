@@ -2630,6 +2630,82 @@ footer p{
     }  
 }
 
+/* Breakpoint */
+
+@media screen and (min-width:0px) and (max-width:600px){
+    
+    .linkGitOculto{
+        width: 43%;
+    }
+
+    .contenedorExperiencias h3{
+        font-size: 2em;
+    }
+
+    .contenedorAdornos {
+        padding-bottom: 0.8rem;
+    }
+
+    .contenedorPadreBarra::before{
+        left: -2.9rem;   
+    }
+
+    .contenedorPadreBarra::after {
+        left: -4.1rem;
+    }
+
+    .formularioTablet input{
+        padding-left: 1rem; 
+    }
+
+    .mensajeTablet{
+        padding-left: 1rem;
+    }
+    
+    .tituloContactameTablet{
+        left: 7rem;
+    }
+
+    .contactameFormularioTablet{
+        width: 55%;
+    }
+    
+    .contenedorConexionesTablet{
+        width: 45%;
+    }
+
+    .contactameTablet{
+        gap: 2rem;
+    }    
+
+    .contactameFormularioTablet::before{
+        width: 0.15rem;
+        height: 52%;
+        top: 41.5%;
+        right: -1.1rem;
+    }
+
+    .contenedorRedesContactTablet{
+        left: 9.5rem;
+    }
+
+    .seccionContactame::before{
+        width: 20%;
+    }
+    
+    .seccionContactame::after{
+        width: 19%;
+    }
+    .seccionFooter::before{
+        width: 26.5%;   
+    }
+    .seccionFooter::after{
+        width: 29%;     
+    }  
+}
+
+
+
 
 
 
