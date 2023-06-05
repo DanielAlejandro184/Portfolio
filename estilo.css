@@ -1052,4 +1052,41 @@ footer p{
     padding-bottom: 11.15rem;
 }
 
+/* Diseño responsive */
+
+/* Breakpoint */
+
+@media screen and (min-width:1025px) and (max-width:1800px){
+    
+    .sectionHero{
+        background-size: 55%;
+        background-position:99% 100%;
+    }
+
+    .contenedorPropiedades{   
+      width: 23%;    
+    }
+
+    .formulario{
+        width: 58.7%;
+    }
+
+    .mensaje{
+        width: 58.7%;
+    }
+
+    .seccionContactame::before{
+        width:37.5%;
+    }
+    .seccionContactame::after{
+        width: 37.5%;
+    }
+    .seccionFooter::before{
+        width: 41%;   
+    }
+    .seccionFooter::after{
+        width: 41%;     
+    }
+}
+
 
