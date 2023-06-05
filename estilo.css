@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); /* Links */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* Soy */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap'); /* Nombre */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');/* Texto*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap');/* Boton contactame */
+@font-face {
+    font-family: myFont;
+    src: url(Revamped.otf);
+}
+
+/* Clases Globales */
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+section [id] {
+    scroll-margin-top: 9rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
