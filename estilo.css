@@ -1370,6 +1370,39 @@ footer p{
     }
 }
 
+/* Breakpoint */
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+  
+    .sectionHero{
+        background-size: 58%;
+        background-position:100% 200%;    
+    }
+
+    .formulario{
+        width: 83%;
+    }
+
+    .mensaje{
+        width: 83%;
+    }
+
+    .seccionContactame::before{
+        width:33%;
+    }
+    .seccionContactame::after{
+        width: 33%;
+    }
+    .seccionFooter::before{
+        width: 38%;   
+    }
+    .seccionFooter::after{
+        width: 38%;     
+    }
+}
+
+
+
 
 
 
