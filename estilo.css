@@ -643,6 +643,7 @@ header h1{
     border: none;
     font-weight: 600;
     margin-bottom: 11rem;
+    cursor: pointer;
 }
 
 .botonVerMas:hover{
@@ -961,6 +962,20 @@ header h1{
     margin-right: 3.38rem;
 }
 
+.botonEnviarMensaje{
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5rem;
+    color: #252B37;
+    background-color: #FFC86B;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
 .contenedorAuxiliar{
     position: relative;
     background-color: #3D3E42;
@@ -1010,6 +1025,10 @@ header h1{
     top: -0.03rem;
     left: 0rem;
     border-radius: 1rem;
+}
+
+.botonEnviarMensaje:hover{
+    transform: scale(1.1);
 }
 
 .contenedorEmail:hover , .contenedorTelefono:hover , .contenedorLocation:hover{
@@ -1648,10 +1667,10 @@ footer p{
         content: '';
         display: block;
         width: 0.6%;
-        height: 56.9%;
+        height: 49.7%;
         background-color: #F0BF6C;
         position: absolute;
-        top: 36.7%;
+        top: 31.9%;
         right: -1.5rem;
         border-radius: 1rem;
     }
@@ -1731,7 +1750,7 @@ footer p{
         transition: .3s all;
         width: 100%;
         justify-content: space-evenly;
-        margin-top: 6.7rem;
+        margin-top: 1.9rem;
     }
     
     .contenedorEmailTablet img{
@@ -1793,7 +1812,7 @@ footer p{
         align-items: center;
         gap: 1.7rem;
         position: absolute;
-        top: 34.2rem;
+        top: 39rem;
         left: 20rem;
         z-index: 1;
     }
@@ -1848,14 +1867,29 @@ footer p{
         max-width: 85.375rem;
     }
 
+    .contactameFormularioTablet::before{
+        width: 0.2rem;
+        height: 47.3%;
+        top: 35%;
+        right: -1.5rem;
+    }
+
+    .contenedorEmailTablet{
+        margin-top: 3.7rem;
+    }
+
     .contenedorRedesContactTablet{
         display: flex;
         align-items: center;
         gap: 1.7rem;
         position: absolute;
-        top: 36rem;
+        top: 40.8rem;
         left: 16.8rem;
         z-index: 1;
+    }
+
+    .contenedorLocationTablet span{
+        width: 70%;
     }
 
     .seccionContactame::before{
@@ -1913,6 +1947,11 @@ footer p{
         width: 25.9%;
         justify-content: right;
         height: 3.3rem;
+    }
+
+    .contenedorRedesContactTablet{
+        top: 40.8rem;
+        left: 14.1rem;
     }
 
     .contenedorExperienciasTextos{
@@ -2362,11 +2401,11 @@ footer p{
     .contactameFormularioTablet::before{
         content: '';
         display: block;
-        width: 0.6%;
-        height: 55%;
+        width: 0.2rem;
+        height: 50%;
         background-color: #F0BF6C;
         position: absolute;
-        top: 38%;
+        top: 34.97%;
         right: -1.5rem;
         border-radius: 1rem;
     }
@@ -2378,7 +2417,7 @@ footer p{
         font-weight: 700;
         position: relative;
         top: -2.3rem;
-        left: 8rem;
+        left: 7.8rem;
     }
 
     .contactameFraseTablet{
@@ -2430,7 +2469,7 @@ footer p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1.75rem;
+        gap: 1.7rem;
         padding-bottom: 1rem;
     }
 
@@ -2447,7 +2486,7 @@ footer p{
         transition: .3s all;
         width: 100%;
         justify-content: space-evenly;
-        margin-top: 6.7rem;
+        margin-top: 4rem;
     }
     
     .contenedorEmailTablet img{
@@ -2503,13 +2542,17 @@ footer p{
         color: #FFC86B;
         width: 70%;
     }
+
+    .botonEnviarMensaje{
+        margin-bottom: 0rem;   
+    }
     
     .contenedorRedesContactTablet{
         display: flex;
         align-items: center;
         gap: 1.7rem;
         position: absolute;
-        top: 30.5rem;
+        top: 33.38rem;
         left: 14rem;
         z-index: 1;
     }
@@ -2542,6 +2585,31 @@ footer p{
 
     .Footer p{
         font-size: 2em;
+    }
+}
+
+/* Breakpoint */
+
+@media screen and (min-width:0px) and (max-width:700px){
+
+    .contactameFormularioTablet::before{ 
+        width: 0.2rem;
+        height: 47.25%;
+        top: 38.2%;
+        right: -1.5rem;
+    }
+
+    .contenedorEmailTablet{
+        margin-top: 5.8rem;
+    }
+
+    .contenedorConexionesTablet{
+        gap: 1.64rem;
+    }
+
+    .contenedorRedesContactTablet{
+        top: 35.1rem;
+        left: 12rem;
     }
 }
 
@@ -2597,21 +2665,25 @@ footer p{
     }
 
     .contenedorConexionesTablet{
-        gap: 1.75rem;
+        gap: 1.67rem;
         padding-bottom: 0rem;
         padding-top: 1rem;
         width: 100%;
     }
 
+    .contenedorEmailTablet{
+        margin-top: 3.8rem;
+    }
+
     .contenedorRedesContactTablet{
-        top: 32.3rem;
+        top: 35.1rem;
         left: 11rem;
     }
 
     .contactameFormularioTablet::before{
         width: 0.2rem;
-        height: 52%;
-        top: 41.5%;
+        height: 47.25%;
+        top: 38.25%;
         right: -1.5rem;
     }
 
@@ -2680,8 +2752,8 @@ footer p{
 
     .contactameFormularioTablet::before{
         width: 0.15rem;
-        height: 52%;
-        top: 41.5%;
+        height: 15.7rem;
+        top: 38.4%;
         right: -1.1rem;
     }
 
@@ -2956,9 +3028,16 @@ footer p{
         left: 20%;
     }
 
+    .botonEnviarMensaje{
+        font-size: 1.2rem;
+        padding: 0.4rem 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
     .contenedorRedesContactTablet{
         left: 7.5rem;
-        bottom: -3.2rem;
+        bottom: 0rem;
+        top:40.3rem;
     }
 
     .seccionContactame::before{
@@ -3025,8 +3104,7 @@ footer p{
     .contenedorPropiedades img{
         height: 2.1rem;
     }
-
-
+ 
     .contenedorPropiedades h3{
         font-size: 1em;
     }
@@ -3194,7 +3272,7 @@ footer p{
 
     .contenedorRedesContactTablet{
         left: 4.5rem;
-        bottom: -9.7rem;
+        bottom: -6.6rem;
     }
 
     .seccionContactame::before{
